@@ -1,0 +1,43 @@
+#top-header {
+    background-color: #f2f2f2; /* Background color */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.header-links {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+.header-links li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 15px; /* Add spacing between items */
+}
+
+.header-links li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+.header-links.pull-right {
+    text-align: right; /* Align right for pull-right links */
+}
+
+.header-links.pull-right .login-link {
+    display: flex; /* Use flexbox for icon and text alignment */
+    align-items: center; /* Center vertically */
+}
+
+.header-links.pull-right .login-link i {
+    margin-right: 5px; /* Add spacing between icon and text */
+}
+
+/* Style for resizing the image */
+.header-links.pull-right .login-link img {
+    max-width: 20px; /* Set the maximum width of the image */
+    height: auto; /* Allow the height to adjust proportionally */
+}
